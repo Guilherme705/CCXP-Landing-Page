@@ -10,8 +10,7 @@ header{
     margin-left: 40px;
 }
 #secao{
-    display: grid;
-    grid-auto-flow: column;
+   display: inline-flex;
 }
 #info{
     background-color: #514988;
@@ -104,3 +103,56 @@ button:hover{
     transform: translateY(-7px);
     transition: 1s;
 }
+@media only screen and (max-width:600px){
+    header{
+        padding-bottom: 15px;
+    }
+    #secao{
+        display: list-item;
+    }
+    #info{
+        margin-top: -20px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    #titulo{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    #titulo2{
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+    #info p{
+        font-size: 15px;
+
+    }
+    #coutdow p{
+        font-size:26px ;
+    }
+    span{
+        font-size: 26px;
+    }
+    #coutdow h1{
+        font-size: 20px;
+    }
+    #video{
+        width: 100%;
+        height: 100%;
+    }
+    footer h1{
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    #cards{
+        display:inline-table;
+    }
+    #botao button{
+        font-size: 20px;
+        width: 300px;
+        margin-left: 30px;
+        margin-top: -80px;
+    }
+}
+
