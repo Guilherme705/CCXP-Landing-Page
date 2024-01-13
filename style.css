@@ -42,7 +42,6 @@ header{
 #coutdow p {
     display: inline;
     font-size: 50px;
-    padding-right: 30px;
     align-items: center;
     font-weight: bold;
     color:#514988;
@@ -56,8 +55,17 @@ header{
     margin-bottom: 20px;
     margin-top: 10px;
 }
-#coutdow{
-    margin-top: 20px;
+.timeInfo{
+    margin: 0px;
+    padding: 0px;
+}
+span{
+    display: inline;
+    font-size: 50px;
+    align-items: center;
+    font-weight: bold;
+    color:#514988;
+    
 }
 footer h1{
     color: #F3C61F;
